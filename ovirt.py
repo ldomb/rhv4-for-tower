@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Copyright 2015 IIX Inc.
+# Copyright 2015 RedHat Inc.
 #
 # This file is part of Ansible
 #
@@ -58,7 +58,7 @@ Examples:
   Use the ovirt inventory script to print out instance specific information
   $ contrib/inventory/ovirt.py --host my_instance
 
-Author: Josha Inglis <jinglis@iix.net> based on the gce.py by Eric Johnson <erjohnso@google.com>
+Author: Laurent Domb <laurent@redhat.com based on the ovirt.py by Josha Inglis <jinglis@iix.net> and gce.py by Eric Johnson <erjohnso@google.com>
 Version: 0.0.1
 """
 
