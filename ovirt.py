@@ -122,7 +122,7 @@ class OVirtInventory(object):
         ovirt_ini_default_path = os.path.join(
             os.path.dirname(os.path.realpath(__file__)), "ovirt.ini")
         #ovirt_ini_path = os.environ.get('OVIRT_INI_PATH', ovirt_ini_default_path)
-        ovirt_ini_path = "/opt/rh/ovirt.ini"
+        ovirt_ini_path = "/etc/ansible/ovirt.ini"
 
         # Create a ConfigParser.
         # This provides empty defaults to each key, so that environment
