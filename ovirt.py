@@ -212,7 +212,7 @@ class OVirtInventory(object):
             'ovirt_uuid': inst.get_id(),
             'ovirt_id': inst.get_id(),
             'ovirt_image': inst.get_os().get_type(),
-            'ovirt_machine_type': inst.get_instance_type(),
+            # breaks inventory 'ovirt_machine_type': inst.get_instance_type(),
             'ovirt_ips': ips,
             'ovirt_name': inst.get_name(),
             'ovirt_description': inst.get_description(),
